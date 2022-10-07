@@ -22,7 +22,6 @@ public class HandBag extends Bag{
          */
         super(color, capacity);
     }
-
     /**
      * Increase the capacity of this bag by 1.
      */

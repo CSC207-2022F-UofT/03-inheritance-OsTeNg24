@@ -149,7 +149,6 @@ public abstract class Bag {
         return this.color + " Bag (" + this.numberOfContents + " / " +
                 this.capacity + ")";
     }
-
     /*
      * Below we have defined an abstract method.
      * This method takes no arguments and does not return anything.

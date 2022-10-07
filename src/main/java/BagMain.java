@@ -35,7 +35,6 @@ class BagMain {
             }
         }
     }
-
     /**
      * TODO: Implement this method
      * Return the total number of straps in CrossbodyBags in bags.
