@@ -66,9 +66,9 @@ public abstract class Bag {
      * TODO: Create a setter function called setColor which sets the
      *       color of this bag to the given color.
      */
-    public void setColor(String colour)
+    public void setColor(String color)
     {
-        colour = colour;
+        this.color = color;
     }
 
 
@@ -118,8 +118,8 @@ public abstract class Bag {
             return null;
         }
         else {
-            String removedString = new String(contents[numberOfContents]);
-            contents[numberOfContents] = "";
+            String removedString = contents[numberOfContents - 1];
+            contents[numberOfContents] = null;
             numberOfContents -= 1;
             return removedString;
         }
